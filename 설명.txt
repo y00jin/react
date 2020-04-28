@@ -6,3 +6,7 @@ path.js
 	resolve
 	join
 }
+
+require('') -> commonjs
+
+create-react-app project-ex7
