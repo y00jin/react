@@ -75,21 +75,21 @@ $ npm i -D express
 
 6. React Refactoring
 
---- react 라이브러리 패키지 설치
++ react 라이브러리 패키지 설치
 ```
    $ npm i -D react react-dom
 ```
---- index.js, App.js 코드 수정
++ index.js, App.js 코드 수정
 
 7. 번들링
 
---- Babel 설치
++  Babel 설치
 ```
    $ npm i -D @babel/core babel-loader @babel/preset-env @babel/preset-react
 ```
---- babel-loader 설정(webpack.config.js)
++ babel-loader 설정(webpack.config.js)
 
---- babel 설정(babel.config.json)
++ babel 설정(babel.config.json)
 
 - - -
 
@@ -161,3 +161,8 @@ $ npm i -D express
       "start": "npx webpack-dev-server"
    }
 ```
+7. 화면 디자인
+
+8. 컴포넌트 작성 + 조합**
+
+9. 속성 + 상태
