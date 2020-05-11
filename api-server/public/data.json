@@ -1,0 +1,26 @@
+[
+    {
+        "no": 1,
+        "firstName": "둘",
+        "lastName":"리",
+        "email": "dooly@gmail.com"
+    },
+    {
+        "no": 2,
+        "firstName": "마",
+        "lastName":"이콜",
+        "email": "michol@gmail.com"
+    },
+    {
+        "no": 3,
+        "firstName": "도",
+        "lastName":"넛",
+        "email": "dounet@gmail.com"
+    },
+    {
+        "no": 4,
+        "firstName": "김",
+        "lastName":"일상",
+        "email": "1sang@gmail.com"
+    }
+]
