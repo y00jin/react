@@ -1,0 +1,27 @@
+{
+    "no": 1,
+    "orderNo": "20200512-000001",
+    "description": "청남방외 2건",
+    "status": "재고확인중",
+    "receive": "서울시 은평구 진관동",
+    "payment": {
+        "price": 10000,
+        "method": "Credit Card"
+    },
+    "products": [{
+        "no": "j001-001",
+        "name": "청남방",
+        "price": 1000,
+        "amount": 1
+    }, {
+        "no": "p001-001",
+        "name": "스트라이프 팬츠",
+        "price": 2000,
+        "amount": 1
+    }, {
+        "no": "p001-002",
+        "name": "면바지",
+        "price": 3000,
+        "amount": 1
+    }]
+}
