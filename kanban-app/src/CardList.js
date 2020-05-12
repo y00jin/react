@@ -7,15 +7,16 @@ import styles from './CardList.css';
 export default class CardList extends React.Component {
     render() {
         return (
-            <div className= { styles.CardList }>
+            <div className={ styles.CardList }>
                 <h1>{ this.props.title }</h1>
-                { this.props.cards && this.props.cards.map(card=> <Card 
-                    key={ card.id } 
+                { this.props.cards && this.props.cards.map( card => <Card 
+                    key={ card.id }
                     id={ card.id }
-                    title={card.title}
-                    status={card.status}
-                    descriptison={card.description}
+                    title={ card.title }
+                    status={ card.status }
+                    description={ card.description }
                     tasks={ card.tasks }
+                    taskCallbacks={ this.props.taskCallbacks }
                 />) }
             </div>
         )
@@ -24,5 +25,5 @@ export default class CardList extends React.Component {
 
 CardList.propTypes = {
     title: PropTypes.string.isRequired,
-    cards: PropTypes.arrayOf(PropTypes.object).isRequired
+    cards: PropTypes.arrayOf(PropTypes.object)
 }
